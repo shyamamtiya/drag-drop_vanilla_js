@@ -36,7 +36,13 @@ function drag(ev) {
 function drop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
-  ev.target.insertAdjacentElement('afterend',document.getElementById(data))
+  if(ev.target.id ==='list1' || ev.target.id ==='list2'){
+    ev.target.append(document.getElementById(data))
+  }
+  else{
+    ev.target.insertAdjacentElement('afterend',document.getElementById(data))
+  }
+ 
 }
 function allowDrop(ev) {
   ev.preventDefault();

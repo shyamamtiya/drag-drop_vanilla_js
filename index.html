@@ -15,7 +15,8 @@
         <div class="topbar">
             <div class="card">
                 <div>
-                    <ul id="list1" ondragend="dragEnd(event)" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <ul class="drop-area" id="list1" ondragend="dragEnd(event)" ondragstart="drag(event)" ondrop="drop(event)"
+                        ondragover="allowDrop(event)">
                         <li draggable="true" id="1">Item 1</li>
                         <li draggable="true" id="2">Item 2</li>
                         <li draggable="true" id="3">Item 3</li>
@@ -23,7 +24,7 @@
                         <li draggable="true" id="5">Item 5</li>
                     </ul>
                 </div>
-                <div>
+                <!-- <div>
                     <button onclick="addOneElementToList2()">
                         >
                     </button>
@@ -31,11 +32,12 @@
                     <button onclick="addToList2()">
                         >>
                     </button>
-                </div>
+                </div> -->
             </div>
-            <div class="card" >
-                <div >
-                    <ul id="list2" ondragend="dragEnd(event)" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" >
+            <div class="card">
+                <div>
+                    <ul id="list2" class="drop-area" ondragend="dragEnd(event)" ondragstart="drag(event)" ondrop="drop(event)"
+                        ondragover="allowDrop(event)">
                         <li draggable="true" id="1.1">Item 1.1</li>
                         <li draggable="true" id="1.2">Item 2.1</li>
                         <li draggable="true" id="1.3">Item 3.1</li>
@@ -43,8 +45,17 @@
                         <li draggable="true" id="1.5">Item 5.1</li>
                     </ul>
                 </div>
-                <div>
+                <!-- <div>
                     <button onclick="addOneElementToList1()">
-                        < </button> <br>
-                            <button onclick="addToList1()">
-                                << </button> </div> </div> </div> </div> </body> </html>
+                        < 
+                    </button>
+                     <br>
+                    <button onclick="addToList1()">
+                            <<
+                    </button>
+                </div>  -->
+            </div> 
+        </div> 
+    </div> 
+</body> 
+</html>

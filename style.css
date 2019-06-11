@@ -23,6 +23,7 @@ html ,body{
     background-color: #fff;
     box-shadow:  0 1px 0 0 #ebebeb;
     min-height: 100vh;
+    border-radius: 4px;
 }
 ul{
     padding-inline-start: 0;
@@ -61,4 +62,8 @@ button:hover{
     background-color: #40a9ff;
     border-color: #40a9ff;
     text-decoration: none;
+}
+.drop-area{
+    min-height: 20%;
+    height: 300px;
 }
